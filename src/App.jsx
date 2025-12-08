@@ -1,11 +1,12 @@
-import './App.css'
+import React from "react";
+import Navbar from "./components/Navbar";
 
 function App() {
 
   return (
     <>
       <div>
-        <h1>Ceres Alien Edition</h1>
+        <Navbar />
       </div>
     </>
   )
