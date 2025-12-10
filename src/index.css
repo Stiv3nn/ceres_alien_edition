@@ -1,7 +1,18 @@
 .product-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-    gap: 35px;
-    width: 90%;
-    margin: 60px auto;
+    grid-template-columns: repeat(3, 1fr); /* ⬅️ 3 colonne */
+    gap: 40px; /* distanza tra le card */
+    padding: 40px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background: radial-gradient(circle at top, #0a0f1f, #000); /* <-- stesso sfondo della navbar */
+    background-attachment: fixed; /* effetto figo */
+    color: white;
+    font-family: sans-serif;
 }

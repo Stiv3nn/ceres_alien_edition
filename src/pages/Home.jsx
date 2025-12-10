@@ -11,8 +11,8 @@ const Home = () => {
             id: 1,
             name: "Ceres Alien IPA",
             description: "Una birra intergalattica dal sapore intenso.",
-            price: "4.50€",
-            image: "/img/beer1.jpg",
+            price: "3.50€",
+            image: "/src/Image/alien_beer.jpg",
             alcohol: "6.5%",
             type: "IPA"
         },
@@ -21,10 +21,74 @@ const Home = () => {
             name: "Nebula Lager",
             description: "Birra chiara e rinfrescante inspirata alle nebulose.",
             price: "3.80€",
-            image: "/img/beer2.jpg",
+            image: "/src/Image/2alien_beer.jpg",
             alcohol: "4.8%",
             type: "LAGER"
-        }
+        },
+        {
+            id: 3,
+            name: "Nebula Lager",
+            description: "Birra chiara e rinfrescante inspirata alle nebulose.",
+            price: "3.80€",
+            image: "/src/Image/3alien_beer.jpg",
+            alcohol: "4.8%",
+            type: "LAGER"
+        },
+        {
+            id: 4,
+            name: "Nebula Lager",
+            description: "Birra chiara e rinfrescante inspirata alle nebulose.",
+            price: "3.80€",
+            image: "/src/Image/3alien_beer.jpg",
+            alcohol: "4.8%",
+            type: "LAGER"
+        },
+        {
+            id: 5,
+            name: "Nebula Lager",
+            description: "Birra chiara e rinfrescante inspirata alle nebulose.",
+            price: "3.80€",
+            image: "/src/Image/3alien_beer.jpg",
+            alcohol: "4.8%",
+            type: "LAGER"
+        },
+        {
+            id: 6,
+            name: "Nebula Lager",
+            description: "Birra chiara e rinfrescante inspirata alle nebulose.",
+            price: "3.80€",
+            image: "/src/Image/3alien_beer.jpg",
+            alcohol: "4.8%",
+            type: "LAGER"
+        },
+        {
+            id: 7,
+            name: "Nebula Lager",
+            description: "Birra chiara e rinfrescante inspirata alle nebulose.",
+            price: "3.80€",
+            image: "/src/Image/3alien_beer.jpg",
+            alcohol: "4.8%",
+            type: "LAGER"
+        },
+        {
+            id: 8,
+            name: "Nebula Lager",
+            description: "Birra chiara e rinfrescante inspirata alle nebulose.",
+            price: "3.80€",
+            image: "/src/Image/3alien_beer.jpg",
+            alcohol: "4.8%",
+            type: "LAGER"
+        },
+        {
+            id: 9,
+            name: "Nebula Lager",
+            description: "Birra chiara e rinfrescante inspirata alle nebulose.",
+            price: "3.80€",
+            image: "/src/Image/3alien_beer.jpg",
+            alcohol: "4.8%",
+            type: "LAGER"
+        },
+
     ]
 
     return (
