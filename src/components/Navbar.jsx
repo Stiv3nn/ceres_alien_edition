@@ -8,7 +8,7 @@ const Navbar = ({ query = '', setQuery = () => {} }) => {
             <div className="title-wrapper">
 
                 <div className="alien-logo-title">
-                    <img src="/src/Image/icon-alien.png" className='icon-alien' height={100} />
+                    <img src="/Image/icon-alien.png" className='icon-alien' height={100} />
 
                     <h1 className='alien-title'>
                         <span className="title-blue">CERES ALIEN</span>
