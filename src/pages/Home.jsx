@@ -10,7 +10,7 @@ const products = [
         name: "Ceres Alien IPA",
         description: "Una birra intergalattica dal sapore intenso.",
         price: "3.50€",
-        image: "/src/Image/alien_beer.jpg",
+        image: "/Image/alien_beer.jpg",
         alcohol: "6.5%",
         type: "---"
     },
@@ -19,7 +19,7 @@ const products = [
         name: "Nebula Lager",
         description: "Birra chiara e rinfrescante inspirata alle nebulose.",
         price: "7.99",
-        image: "/src/Image/2alien_beer.jpg",
+        image: "/Image/2alien_beer.jpg",
         alcohol: "4.8%",
         type: "---"
     },
@@ -28,7 +28,7 @@ const products = [
         name: "Nebula Lager",
         description: "Birra chiara e rinfrescante inspirata alle nebulose.",
         price: "7.99",
-        image: "/src/Image/3alien_beer.jpg",
+        image: "/Image/3alien_beer.jpg",
         alcohol: "4.8%",
         type: "---"
     },
@@ -37,7 +37,7 @@ const products = [
         name: "Alien T-Shirt",
         description: "T-shirt leggera e confortevole, ispirata ai misteri degli abissi interstellari.",
         price: "15.99€",
-        image: "/src/Image/4alien_tshirt.jpg",
+        image: "/Image/4alien_tshirt.jpg",
         alcohol: "4.8%",
         type: "---"
     },
@@ -46,7 +46,7 @@ const products = [
         name: "Alien Sweatshirt",
         description: "Lana galattica, tessuta nel silenzio delle nebulose.",
         price: "19.99€",
-        image: "/src/Image/5alien_sweatshirt.jpg",
+        image: "/Image/5alien_sweatshirt.jpg",
         alcohol: "4.8%",
         type: "---"
     },
@@ -55,7 +55,7 @@ const products = [
         name: "Alien T-Shirt",
         description: "T-shirt leggera e confortevole, ispirata ai misteri degli abissi interstellari.",
         price: "15.99€",
-        image: "/src/Image/6alien_tshirt.jpg",
+        image: "/Image/6alien_tshirt.jpg",
         alcohol: "4.8%",
         type: "---"
     },
@@ -64,7 +64,7 @@ const products = [
         name: "Alien Hat",
         description: "Visiera oscura, ispirata alle ombre di lune aliene.",
         price: "7.99€",
-        image: "/src/Image/7alien_hat.jpg",
+        image: "/Image/7alien_hat.jpg",
         alcohol: "4.8%",
         type: "---"
     },
@@ -73,7 +73,7 @@ const products = [
         name: "Alien Hat",
         description: "Visiera oscura, ispirata alle ombre di lune aliene.",
         price: "7.99€",
-        image: "/src/Image/8alien_hat.jpg",
+        image: "/Image/8alien_hat.jpg",
         alcohol: "4.8%",
         type: "---"
     },
@@ -82,7 +82,7 @@ const products = [
         name: "Alien Hat",
         description: "Visiera oscura, ispirata alle ombre di lune aliene.",
         price: "7.99€",
-        image: "/src/Image/9alien_hat.jpg",
+        image: "/Image/9alien_hat.jpg",
         alcohol: "4.8%",
         type: "---"
     },
