@@ -1,7 +1,8 @@
 import React from 'react';
 import "./Navbar.css";
 
-const Navbar = () => {
+// Riceve `query` e `setQuery` dal componente padre (Home)
+const Navbar = ({ query = '', setQuery = () => {} }) => {
     return (
         <section className='alien-hero'>
             <div className="title-wrapper">
@@ -21,7 +22,13 @@ const Navbar = () => {
 
                 <div className="search-container">
                     <span className="search-icon">🔍</span>
-                    <input type="text" placeholder='Cerca la tua birra aliena...' className='search-input' />
+                    <input
+                        type="text"
+                        placeholder='Cerca la tua birra aliena...'
+                        className='search-input'
+                        value={query}
+                        onChange={(e) => setQuery(e.target.value)}
+                    />
                 </div>
             </div>
         </section>
