@@ -97,3 +97,78 @@
 .order-btn:hover {
     opacity: 0.9;
 }
+
+/* Media Query per Tablet (768px - 1024px) */
+@media (max-width: 1024px) {
+    .product-image-wrapper {
+        height: 300px;
+    }
+
+    .product-title {
+        font-size: 16px;
+    }
+
+    .product-desc {
+        font-size: 13px;
+        margin: 8px 0 16px;
+    }
+
+    .product-price {
+        font-size: 16px;
+    }
+
+    .order-btn {
+        padding: 5px 12px;
+        font-size: 13px;
+    }
+}
+
+/* Media Query per Mobile (< 768px) */
+@media (max-width: 768px) {
+    .product-card {
+        border-radius: 14px;
+    }
+
+    .product-image-wrapper {
+        height: 250px;
+    }
+
+    .product-info {
+        padding: 14px;
+    }
+
+    .product-title {
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .product-type {
+        font-size: 10px;
+    }
+
+    .product-desc {
+        font-size: 12px;
+        margin: 6px 0 12px;
+    }
+
+    .product-footer {
+        gap: 8px;
+    }
+
+    .product-price {
+        font-size: 14px;
+    }
+
+    .order-btn {
+        padding: 4px 10px;
+        font-size: 11px;
+        border-radius: 16px;
+    }
+
+    .alcohol-badge {
+        font-size: 10px;
+        padding: 3px 6px;
+        top: 8px;
+        right: 8px;
+    }
+}

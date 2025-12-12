@@ -82,3 +82,47 @@
         opacity: 1;
     }
 }
+
+/* Media Query per Tablet (768px - 1024px) */
+@media (max-width: 1024px) {
+    .intro-title {
+        font-size: 32px;
+        margin-top: 15px;
+    }
+
+    .intro-subtitle {
+        font-size: 16px;
+        margin-top: 8px;
+    }
+
+    .intro-logo {
+        width: 140px;
+    }
+
+    .intro-arrow {
+        font-size: 32px;
+        bottom: 30px;
+    }
+}
+
+/* Media Query per Mobile (< 768px) */
+@media (max-width: 768px) {
+    .intro-title {
+        font-size: 24px;
+        margin-top: 12px;
+    }
+
+    .intro-subtitle {
+        font-size: 13px;
+        margin-top: 6px;
+    }
+
+    .intro-logo {
+        width: 100px;
+    }
+
+    .intro-arrow {
+        font-size: 28px;
+        bottom: 20px;
+    }
+}

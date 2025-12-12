@@ -111,3 +111,68 @@
 .search-input::placeholder {
     color: rgba(255, 255, 255, 0.5);
 }
+
+/* Media Query per Tablet (768px - 1024px) */
+@media (max-width: 1024px) {
+    .alien-hero {
+        padding: 60px 15px;
+    }
+
+    .alien-title {
+        font-size: 32px;
+        letter-spacing: 1px;
+    }
+
+    .alien-subtitle {
+        font-size: 14px;
+    }
+
+    .search-container {
+        width: 85%;
+        max-width: 500px;
+        padding: 12px 16px;
+    }
+
+    .search-input {
+        font-size: 14px;
+    }
+}
+
+/* Media Query per Mobile (< 768px) */
+@media (max-width: 768px) {
+    .alien-hero {
+        padding: 40px 10px;
+    }
+
+    .icon-alien {
+        height: 70px !important;
+    }
+
+    .alien-title {
+        font-size: 24px;
+        letter-spacing: 1px;
+        margin: 8px 0;
+    }
+
+    .alien-subtitle {
+        font-size: 12px;
+        letter-spacing: 0.5px;
+    }
+
+    .search-container {
+        width: 95%;
+        max-width: 100%;
+        margin: 30px auto 0;
+        padding: 10px 14px;
+        border-radius: 30px;
+    }
+
+    .search-icon {
+        font-size: 16px;
+        margin-right: 8px;
+    }
+
+    .search-input {
+        font-size: 13px;
+    }
+}
