@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import IntroPage from "./Components/IntroPage.jsx";
+import IntroPage from "./components/IntroPage.jsx";
 import Home from "./pages/Home";
 
 function App() {

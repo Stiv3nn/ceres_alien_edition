@@ -1,8 +1,8 @@
 import React, { useState, useMemo } from 'react'
 // IMPORTIAMO LA NAVBAR
-import Navbar from '../Components/Navbar'
+import Navbar from '../components/Navbar'
 // IMPORTIAMO PRODUCTCARD
-import ProductCard from '../Components/ProductCard'
+import ProductCard from '../components/ProductCard'
 
 const products = [
     {
