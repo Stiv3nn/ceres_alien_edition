@@ -19,7 +19,7 @@ export default function IntroPage() {
     return (
         <div className="intro-container">
             <div className="intro-content">
-                <img src="/src/Image/11alien.png" className="intro-logo" alt="Alien Logo" />
+                <img src="/Image/11alien.png" className="intro-logo" alt="Alien Logo" />
 
                 <h1 className="intro-title">Piattaforma E-commerce | Concept</h1>
                 <h1 className="intro-title">CERES ALIEN EDITION</h1>
